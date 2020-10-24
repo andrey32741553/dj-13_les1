@@ -35,6 +35,6 @@ def workdir_view(request):
     # по аналогии с `time_view`, напишите код,
     # который возвращает список файлов в рабочей 
     # директории
-    workdir = os.listdir(path='\\Users\\Андрей\\PycharmProjects\\dj-13_les1\\django_les1\\')
+    workdir = os.listdir()
     # raise NotImplemented
     return HttpResponse(workdir)
